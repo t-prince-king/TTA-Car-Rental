@@ -16,3 +16,29 @@
     font-size: 50px;
     font-weight: 548;
 }
+.header{
+    display: flex;
+    padding:20px 0px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: center;
+}
+
+.header-content-1{
+    width: 20%;
+}
+.header-content-2{
+    width: 60%;
+}
+.header-content-3{
+    width: 20%;
+}
+.header-content-3 button{
+    background-color:#000 ;
+    color: #fff;
+    padding: 3px 15px ;
+    border: 2px solid #fff;
+    border-radius: 12px;
+}
