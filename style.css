@@ -95,12 +95,12 @@
     position: absolute;
     top: 20%;
 }
-#brand-section, #body-type-section{
+#brand-section, #body-type-section, #collection-section, .collection-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-sec-container,.body-type-section-container{
+.brand-sec-container,.body-type-section-container, .collection-section-container{
     width: 90vw;
 }
 .brand-sec-header, .body-type-section-header{
@@ -135,4 +135,33 @@
 }
 .brand, .body-type{
     text-align: center;
+}
+
+#collection-section{
+    background-color:  #F5F5F5;
+    padding-bottom: 40px;
+    margin: unset;
+}
+.collection-section-header{
+    width: 55%;
+    text-align: center;
+}
+.collection-section-header p{
+    padding: 15px 0px;
+}
+.collection-section-header ul li{
+    display:inline;
+    padding: 7px 4px;
+   
+}
+.collection-section-header ul li a{
+    text-decoration: none;
+    color: #000;
+    background-color: #ffffff;
+    padding: 7px 5px;
+    border-radius: 10px;
+}
+.collection-section-header ul li:first-of-type a{
+    background-color: #000000;
+    color:#ffffff;
 }
