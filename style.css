@@ -165,3 +165,86 @@
     background-color: #000000;
     color:#ffffff;
 }
+.collection-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 10px;
+}
+.collection-item{
+    background-color: #ffffff;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.collection-item, .img-container, .specs-container, .button-container-button{
+    display: inline;
+    justify-content: center;
+    margin:10px;
+}
+
+.collection-item .img-container img{
+    width:93% ;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+.derail-container{
+    margin: 8px;
+    padding-left:8px ;
+}
+.derail-container h4{
+    padding: 5px 0px;
+}
+.derail-container h4 sub{
+    font-weight:100 ;
+    color: gray;
+}
+.spece-container, .button{
+    margin: 10px 0px;
+    position: unset;
+}
+.spece-content{
+    width: 95%;
+    height: 50px;
+    background-color: #F5F5F5;
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    border-radius:9px;
+}
+.specs{
+    text-align: center;
+}
+.button-container-button{
+    display: flex;
+    justify-content: center;
+}
+.button{
+    width: 90%;
+}
+.button button{
+    width: 100%;
+    padding: 10px 0px;
+    background-color: #ffffff;
+    color: #000000;
+    border:.5px solid black;
+    border-radius: 30px;
+}
+.collection-item-2{
+    border: 1px solid black;
+
+}
+.collection-item-2 button{
+background-color: #000000;
+color: #ffffff;
+}
+.see-all-button{
+    display: flex;
+    justify-content: center;
+}
+.see-all-button button{
+    padding: 10px 15px;
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    border-radius: 30px;
+}
