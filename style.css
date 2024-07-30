@@ -95,12 +95,12 @@
     position: absolute;
     top: 20%;
 }
-#brand-section, #body-type-section, #collection-section, .collection-section-header-container{
+#brand-section, #body-type-section, #collection-section, .collection-section-header-container, #service-section{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-sec-container,.body-type-section-container, .collection-section-container{
+.brand-sec-container,.body-type-section-container, .collection-section-container, .service-section-container{
     width: 90vw;
 }
 .brand-sec-header, .body-type-section-header{
@@ -142,11 +142,11 @@
     padding-bottom: 40px;
     margin: unset;
 }
-.collection-section-header, .how-section-header{
+.collection-section-header, .how-section-header, .service-header{
     width: 55%;
     text-align: center;
 }
-.collection-section-header p{
+.collection-section-header p, .service-header p{
     padding: 15px 0px;
 }
 .collection-section-header ul li{
@@ -248,12 +248,12 @@ color: #ffffff;
     border: none;
     border-radius: 30px;
 }
-.how-section-header-container{
+.how-section-header-container, .service-section-header-container{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.collection-section-header h4{
+.collection-section-header h4, .service-header h1{
     font-family: sans-serif;
 }
 .how-section-header h2{
@@ -317,4 +317,11 @@ color: #ffffff;
     text-align: justify;
     padding-right: 20px;
     padding-left: 5px;
+}
+/* section service styles*/
+#service-section{
+    background-color: #000000;
+    color:#ffffff;
+    padding: 40px 0px;
+    margin-bottom: unset;
 }
