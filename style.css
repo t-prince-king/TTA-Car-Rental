@@ -95,18 +95,18 @@
     position: absolute;
     top: 20%;
 }
-#brand-section, #body-type-section, #collection-section, .collection-section-header-container, #service-section{
+#brand-section, #body-type-section, #collection-section, .collection-section-header-container, #service-section, #comment-section{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-sec-container,.body-type-section-container, .collection-section-container, .service-section-container{
+.brand-sec-container,.body-type-section-container, .collection-section-container, .service-section-container, .comment-section-container{
     width: 90vw;
 }
-.brand-sec-header, .body-type-section-header{
+.brand-sec-header, .body-type-section-header, .comment-section-header{
     display: flex;
 }
-.brand-sec-button, .body-type-section-button{
+.brand-sec-button, .body-type-section-button, .comment-section-button{
     width: 88%;
     display:flex ;
     justify-content: end;
@@ -324,4 +324,70 @@ color: #ffffff;
     color:#ffffff;
     padding: 40px 0px;
     margin-bottom: unset;
+}
+.service-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 20px;
+}
+.service-item .icon-container-0{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon-container-0 .icon-0{
+    background-color:#ffffff ;
+    padding: 15px;
+    border-radius: 50%;
+    margin-bottom: 5px;
+}
+.service-item .service-content{
+    text-align: center;
+}
+.service-item .service-content h4{
+    padding: 10px 0px;
+}
+.service-item .service-content p{
+    padding: 10px;
+}
+.comment-section-button{
+    width: 74%;
+}
+.comment-section-button button{
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+}
+.comment-section-button .left-button{
+    background-color: #ffffff;
+    color:#C0C0C0;
+    border: 1px solid #C0C0C0;
+
+}
+.comment-section-button .right-button{
+    background-color: #000000;
+    color: #ffffff;
+    border: 1px solid #000000;
+}
+.comment-content{
+ width: 90%;
+ margin:10px 0px ;
+ 
+}
+.comment-content p{
+    font-family:Arial, Helvetica, sans-serif;
+}
+.comment-owenr-container{
+    display: flex;
+    margin: 30px 0px;
+}
+
+.comment-owener-name{
+    margin-left: 15px;
+    padding-top: 10px;
+}
+.comment-owener-name h5{
+    padding:10px 0px ;
 }
