@@ -98,12 +98,12 @@ a{
     position: absolute;
     top: 20%;
 }
-#brand-section, #body-type-section, #collection-section, .collection-section-header-container, #service-section, #comment-section, #downloa-section{
+#brand-section, #body-type-section, #collection-section, .collection-section-header-container, #service-section, #comment-section, #downloa-section, footer{
     display: flex;
     justify-content: center;
     margin: 40px 0px;
 }
-.brand-sec-container,.body-type-section-container, .collection-section-container, .service-section-container, .comment-section-container, .downloa-section-container{
+.brand-sec-container,.body-type-section-container, .collection-section-container, .service-section-container, .comment-section-container, .downloa-section-container, .footer-container{
     width: 90vw;
 }
 .brand-sec-header, .body-type-section-header, .comment-section-header{
@@ -444,4 +444,32 @@ color: #ffffff;
 }
 .downloa-button-worlds h3{
     font-family: Arial, Helvetica, sans-serif;
+}
+
+/* footer styi */
+footer{
+    margin: unset;
+    background-color: #000000;
+    padding: 20px 0px;
+    color: #F5F5F5;
+}
+.footer-container{
+    display: flex;
+}
+.footer-logo{
+    display: flex;
+    width: 20%;
+    justify-content: start;
+}
+.footer-nav ul li, .footer-social ul li{
+    display: inline;
+}
+.footer-nav{
+    width: 60%;
+    text-align: center;
+}
+.footer-nav ul li a, .footer-social ul li a{
+    text-decoration: none;
+    color: #F5F5F5;
+    padding: 0px 10px;
 }
