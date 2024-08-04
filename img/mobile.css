@@ -1,0 +1,38 @@
+@media (max-width:600px) {
+    #downloa-section,
+    #service-section, #comment-section, #downloa-section, footer, #how-section{
+        display: none;
+    }
+    .header-content-3{
+        display: none;
+    }
+    .home-container p{
+        font-size:20px ;
+    }
+    .form-container{
+        align-items: center;
+    }
+    .from{
+        flex-direction: column;
+        width: 70%;
+    }
+    .brand-content, .body-type-content{
+        width: 30%;
+    }
+    .brand-content svg, .body-type-content svg{
+        width:60% ;
+    }
+    .brand-content p, .body-type-content p{
+        font-size: 13px;
+    }
+    .collection-section-header{
+        width: 65%;
+    }
+    .collection-section-header ul li{
+        display: block;
+        margin: 10px 0px;
+    }
+    .collection-grid{
+        grid-template-columns: auto;
+    }
+}
