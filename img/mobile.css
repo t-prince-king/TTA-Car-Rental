@@ -1,6 +1,6 @@
 @media (max-width:600px) {
     #downloa-section,
-    #service-section, #comment-section, #downloa-section, footer, #how-section{
+ #downloa-section, footer{
         display: none;
     }
     .header-content-3{
@@ -25,14 +25,40 @@
     .brand-content p, .body-type-content p{
         font-size: 13px;
     }
-    .collection-section-header{
+    .collection-section-header, .how-section-header, .service-header{
         width: 65%;
     }
     .collection-section-header ul li{
         display: block;
         margin: 10px 0px;
     }
-    .collection-grid{
+    .collection-grid,
+    .service-grid{
         grid-template-columns: auto;
+    }
+    .how-container{
+        flex-direction: column;
+    }
+    .how-container .car-img{
+        width: 100%;
+        height: auto;
+    }
+    .car-img img{
+        width:70%;
+        height: auto;
+    }
+    .how-content-empy{
+        display: none;
+    }
+    .how-content-steps{
+        position: relative;
+        width: 100%;
+    }
+    .comment-section-button button{
+        height: 30px;
+    width: 30px;
+    }
+    .comment-section-header h1{
+        font-size: 20px;
     }
 }
